@@ -36,5 +36,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Folder Structure
 
 The main entry file in every folder is named after the folder with the exception of the main entry point "index.tsx".\
-Ex: src\index.tsx
+Ex: src\index.tsx\
 Ex: src\Solana\Solana.tsx
