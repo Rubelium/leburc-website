@@ -5,7 +5,7 @@
 - The purpose of this project is to build a suite of analysis and project deploy tools for the Solana blockchain and hit them with extensive tests.
 - The overarching purpose is to build a robust program that cannot break in all scenarios.
 - This is a work in progress (WIP) without a designated direction as of now in terms of a feature map.
-- This README will ALWAYS be updated with up-to-date information (call me out otherwise).
+- This README will always be updated with up-to-date information (call me out otherwise).
 
 ## Available Scripts
 
