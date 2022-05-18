@@ -36,6 +36,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Folder Structure
 
-The main entry file in every component folder is named after the folder with the exception of the main entry point: "index.tsx".\
+The main entry file in every component folder is named after the folder with the exception of the main entry point:
 Ex: src\index.tsx\ (main entry)\
 Ex: src\Solana\Solana.tsx (sub entry)
