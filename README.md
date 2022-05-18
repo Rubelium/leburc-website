@@ -1,9 +1,10 @@
 # Getting Started with the Rubelium Toolkit
 
 - This project was bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
-- TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-- The purpose of this project is to build a suite of analysis and project deploy tools for the Solana blockchain.
-- This is a work in progress without a designated direction as of now.
+- TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Catch those errors early.
+- The purpose of this project is to build a suite of analysis and project deploy tools for the Solana blockchain and hit them with extensive tests.
+- The overarching purpose is to build a robust program that cannot break in all scenarios.
+- This is a work in progress (WIP) without a designated direction as of now in terms of a feature map.
 - This README will ALWAYS be updated with up-to-date information.
 
 ## Available Scripts
