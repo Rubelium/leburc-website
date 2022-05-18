@@ -36,6 +36,6 @@ In the project directory, you can run:
 
 ### Folder Structure
 
-- The main entry file in every component folder is named after the folder with, exception is the initial entry point:
+- The main entry file in every component folder is named after the folder, exception is the initial entry point:
   - Ex: src\index.tsx\ (initial entry)
   - Ex: src\Solana\Solana.tsx (sub entry)
