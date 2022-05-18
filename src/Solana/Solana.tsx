@@ -1,4 +1,4 @@
-import './Solana.css';
+import './css/Solana.css';
 
 const Solana = () => {
   return (
