@@ -1,10 +1,10 @@
 # Getting Started with the Rubelium Toolkit
 
-- This project was bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).\
-- TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.\
-- The purpose of this project is to build a suite of analysis and project deploy tools for the Solana blockchain.\
-- This is a work in progress without a designated direction as of now.\
-- This README will ALWAYS be updated with up-to-date information.\
+- This project was bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
+- TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+- The purpose of this project is to build a suite of analysis and project deploy tools for the Solana blockchain.
+- This is a work in progress without a designated direction as of now.
+- This README will ALWAYS be updated with up-to-date information.
 
 ## Available Scripts
 
@@ -36,5 +36,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Folder Structure
 
 The main entry file in every folder is named after the folder with the exception of the main entry point "index.tsx".\
-Ex: src\index.tsx\
-Ex: src\Solana\Solana.tsx
+Ex: src\index.tsx\ (main entry)
+Ex: src\Solana\Solana.tsx (sub entry)
