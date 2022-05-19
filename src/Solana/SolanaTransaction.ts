@@ -1,13 +1,14 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { struct, u32, ns64 } from "@solana/buffer-layout";
-import { Buffer } from 'buffer';
+import { Buffer } from "buffer";
 import web3 from "@solana/web3.js";
 
-let keypair = web3.Keypair.generate();
-let payer = web3.Keypair.generate();
+const keypair = web3.Keypair.generate();
+const payer = web3.Keypair.generate();
 
-let connection = new web3.Connection(web3.clusterApiUrl('testnet'));
+const connection = new web3.Connection(web3.clusterApiUrl("testnet"));
 
-let airdropSignature = await connection.requestAirdrop(
+const airdropSignature = await connection.requestAirdrop(
   payer.publicKey,
   web3.LAMPORTS_PER_SOL,
 );
@@ -16,24 +17,24 @@ let airdropSignature = await connection.requestAirdrop(
 await connection.confirmTransaction(airdropSignature);
 
 // TODO: deprecated
-let allocateTransaction = new web3.Transaction({
+const allocateTransaction = new web3.Transaction({
   feePayer: payer.publicKey
 });
 
-let keys = [{pubkey: keypair.publicKey, isSigner: true, isWritable: true}];
+const keys = [{ pubkey: keypair.publicKey, isSigner: true, isWritable: true }];
 
-let params = { space: 100 };
+const params = { space: 100 };
 
-let allocateStruct = {
+const allocateStruct = {
   index: 8,
   layout: struct([
-    u32('instruction') as any,
-    ns64('space') as any,
+    u32("instruction") as any,
+    ns64("space") as any,
   ])
 };
 
-let data = Buffer.alloc(allocateStruct.layout.span);
-let layoutFields = Object.assign({instruction: allocateStruct.index}, params);
+const data = Buffer.alloc(allocateStruct.layout.span);
+const layoutFields = Object.assign({ instruction: allocateStruct.index }, params);
 allocateStruct.layout.encode(layoutFields, data);
 
 allocateTransaction.add(new web3.TransactionInstruction({
