@@ -48,6 +48,8 @@
 
 ### Visual Studio Code
 
+## `settings.json`
+
 ```json
 {
   "git.enableSmartCommit": true,
@@ -68,3 +70,10 @@
   },
 }
 ```
+
+## Extensions
+
+-[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+-[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+-[Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
+-[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
