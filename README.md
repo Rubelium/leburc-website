@@ -35,6 +35,8 @@
 
 ### Folder Structure
 
-- The main entry file in every component folder is named after the folder, only exception is the JavaScript entry point:
-  - Ex: src\index.tsx\ (main entry)
-  - Ex: src\Solana\Solana.tsx (sub entry)
+- The main entry file in every feature folder is named after the folder.
+- The only exception is the default JavaScript entry point.
+  - Ex: src\index.tsx\ (default JavaScript entry point)
+- All folder names are lowercase.
+  - Ex: src\solana\index.tsx\
