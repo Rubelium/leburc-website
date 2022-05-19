@@ -35,7 +35,7 @@
 
 ### Folder Structure
 
-- The main entry file in every feature folder is named after the folder.
+- The main entry file in every folder in `\feature` directory is named after the folder.
   - Ex: `src\feature\solana\Solana.tsx`
 - All folder names are lowercase.
 - If components or code is shareable, move to common folder.
