@@ -46,9 +46,9 @@
   - Ex: `src\feature\solana\_tests\Solana.test.tsx`
   - Ex: `src\feature\solana\_tests\__snapshots__\Solana.test.tsx.snap`
 
-### Visual Studio Code
+## Visual Studio Code
 
-## `settings.json`
+### `settings.json`
 
 ```json
 {
@@ -71,7 +71,7 @@
 }
 ```
 
-## Extensions
+### Extensions
 
 -[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 -[Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
