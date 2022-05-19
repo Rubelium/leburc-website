@@ -36,7 +36,12 @@
 ### Folder Structure
 
 - The main entry file in every feature folder is named after the folder.
-  - Ex: `src\solana\index.tsx\`
-- The only exception is the default JavaScript entry point.
-  - Ex: `src\index.tsx\`
+  - Ex: `src\feature\solana\Solana.tsx`
 - All folder names are lowercase.
+- If components or code is shareable, move to common folder.
+
+### JavaScript Testing
+
+- All testable components should contain a test folder with unit tests and snapshots.
+  - Ex: `src\feature\solana\_tests\Solana.test.tsx`
+  - Ex: `src\feature\solana\_tests\__snapshots__\Solana.test.tsx.snap`
