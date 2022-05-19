@@ -45,3 +45,26 @@
 - All testable components should contain a test folder with unit tests and snapshots.
   - Ex: `src\feature\solana\_tests\Solana.test.tsx`
   - Ex: `src\feature\solana\_tests\__snapshots__\Solana.test.tsx.snap`
+
+### Visual Studio Code
+
+```json
+{
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "launch": {
+    "configurations": [
+      {
+        "type": "pwa-chrome",
+        "request": "launch",
+        "name": "Launch Chrome against localhost",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceFolder}"
+      }
+    ],
+  },
+}
+```
