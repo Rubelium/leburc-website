@@ -4,7 +4,7 @@
 - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. Catch those errors early.
 - The purpose of this project is to build a suite of analysis and project deploy tools for the Solana blockchain.
 - This is a work in progress (WIP) without a designated direction as of now in terms of a feature map.
-- This README will always contain up-to-date information (call me out otherwise).
+- This README will always contain up-to-date information.
 
 ## Available Scripts
 
