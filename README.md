@@ -37,10 +37,10 @@
 
 ### JavaScript Testing
 
-- All testable components should contain a test folder with unit tests and snapshots.
+- All testable components should contain a `\tests` directory with unit tests and snapshots.
 - Snapshots should always be examined in the PR process for introduced errors or new functionality.
-  - Ex: `src\feature\solana\_tests\Solana.test.tsx`
-  - Ex: `src\feature\solana\_tests\__snapshots__\Solana.test.tsx.snap`
+  - Ex: `src\feature\solana\tests\Solana.test.tsx`
+  - Ex: `src\feature\solana\tests\__snapshots__\Solana.test.tsx.snap`
 
 ## Visual Studio Code
 
