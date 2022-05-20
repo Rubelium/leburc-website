@@ -1,7 +1,7 @@
 # Getting Started
 
 - This project was bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
-- It will be a Web3 entry point for an Unreal Engine 5.x game built utilizing the Solana blockchain for NFT purposes.
+- It will be a Web3 entry point for a game built in the Unity Engine utilizing the Solana blockchain for NFT purposes.
 
 ## Available Scripts
 
