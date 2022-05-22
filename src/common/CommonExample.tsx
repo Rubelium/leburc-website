@@ -1,6 +1,7 @@
 const CommonExample = () => {
   return (
     <div>
+      Common Example
     </div>
   );
 };

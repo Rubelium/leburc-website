@@ -1,6 +1,7 @@
 const Solana = () => {
   return (
     <div>
+      Solana
     </div>
   );
 };
