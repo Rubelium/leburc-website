@@ -30,7 +30,7 @@
 ### Folder Structure
 
 - The main entry file in every folder in the `\feature` directory is named after the folder.
-  - Ex: `src\feature\solana\Solana.tsx`
+  - Ex: `src\feature\featureName\FeatureName.tsx`
 - All folder names are lowercase.
 - If components or code is shareable then move it to the `\common` folder.
 
@@ -38,8 +38,8 @@
 
 - All testable components should contain a `\tests` directory with unit tests and snapshots.
 - Snapshots should always be examined in the PR process for introduced errors or new functionality.
-  - Ex: `src\feature\solana\tests\Solana.test.tsx`
-  - Ex: `src\feature\solana\tests\__snapshots__\Solana.test.tsx.snap`
+  - Ex: `src\feature\featureName\tests\FeatureName.test.tsx`
+  - Ex: `src\feature\featureName\tests\__snapshots__\FeatureName.test.tsx.snap`
 
 ## Visual Studio Code
 
