@@ -8,7 +8,7 @@ describe("it should render", () => {
     expect(component).toMatchSnapshot();
   });
 
-  test("the learn react link", () => {
+  test("the common example link", () => {
     render(<CommonExample />);
 
     const linkElement = screen.getByText("Common Example");

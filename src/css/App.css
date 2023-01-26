@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #00AEAE;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,12 @@
   color: white;
 }
 
+.App-header a:hover {
+  color: #ffffff;
+}
+
 .App-link {
-  color: #61dafb;
+  color: #000000;
   text-decoration: none;
 }
 
