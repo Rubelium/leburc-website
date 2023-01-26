@@ -1,4 +1,4 @@
-import logo from "./svg/logo.svg";
+import logo from "./png/logoF2t4BlackWhiteCircleFilled.png";
 import "./css/App.css";
 
 const App = () => {
@@ -7,15 +7,39 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          FLOOR<sup>4</sup>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://soundcloud.com/f2t4"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          SoundCloud
+        </a>
+        <a
+          className="App-link"
+          href="https://www.youtube.com/F2t4TV"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          YouTube
+        </a>
+        <a
+          className="App-link"
+          href="https://www.instagram.com/f2t4/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+        <a
+          className="App-link"
+          href="https://twitter.com/_F2t4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
         </a>
       </header>
     </div>

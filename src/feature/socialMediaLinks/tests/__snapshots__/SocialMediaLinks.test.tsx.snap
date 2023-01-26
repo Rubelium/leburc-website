@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it should render the snapshot of the <Solana /> component 1`] = `
+exports[`it should render the snapshot of the <SocialMediaLinks /> component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div>
-        Solana
+        Social Media Links
       </div>
     </div>
   </body>,
   "container": <div>
     <div>
-      Solana
+      Social Media Links
     </div>
   </div>,
   "debug": [Function],

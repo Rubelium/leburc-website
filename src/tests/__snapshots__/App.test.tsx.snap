@@ -14,22 +14,45 @@ Object {
           <img
             alt="logo"
             class="App-logo"
-            src="logo.svg"
+            src="logoF2t4BlackWhiteCircleFilled.png"
           />
           <p>
-            Edit 
-            <code>
-              src/App.tsx
-            </code>
-             and save to reload.
+            FLOOR
+            <sup>
+              4
+            </sup>
           </p>
           <a
             class="App-link"
-            href="https://reactjs.org"
+            href="https://soundcloud.com/f2t4"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Learn React
+            SoundCloud
+          </a>
+          <a
+            class="App-link"
+            href="https://www.youtube.com/F2t4TV"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            YouTube
+          </a>
+          <a
+            class="App-link"
+            href="https://www.instagram.com/f2t4/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Instagram
+          </a>
+          <a
+            class="App-link"
+            href="https://twitter.com/_F2t4"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Twitter
           </a>
         </header>
       </div>
@@ -45,22 +68,45 @@ Object {
         <img
           alt="logo"
           class="App-logo"
-          src="logo.svg"
+          src="logoF2t4BlackWhiteCircleFilled.png"
         />
         <p>
-          Edit 
-          <code>
-            src/App.tsx
-          </code>
-           and save to reload.
+          FLOOR
+          <sup>
+            4
+          </sup>
         </p>
         <a
           class="App-link"
-          href="https://reactjs.org"
+          href="https://soundcloud.com/f2t4"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Learn React
+          SoundCloud
+        </a>
+        <a
+          class="App-link"
+          href="https://www.youtube.com/F2t4TV"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          YouTube
+        </a>
+        <a
+          class="App-link"
+          href="https://www.instagram.com/f2t4/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Instagram
+        </a>
+        <a
+          class="App-link"
+          href="https://twitter.com/_F2t4"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Twitter
         </a>
       </header>
     </div>

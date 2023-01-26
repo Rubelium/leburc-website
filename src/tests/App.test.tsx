@@ -8,11 +8,17 @@ describe("it should render", () => {
     expect(component).toMatchSnapshot();
   });
 
-  test("the learn react link", () => {
+  test("the social media links", () => {
     render(<App />);
 
-    const linkElement = screen.getByText(/learn react/i);
+    const soundCloudLinkElement = screen.getByText(/SoundCloud/i);
+    const youTubeLinkElement = screen.getByText(/YouTube/i);
+    const InstagramLinkElement = screen.getByText(/Instagram/i);
+    const TwitterLinkElement = screen.getByText(/Twitter/i);
 
-    expect(linkElement).toBeInTheDocument();
+    expect(soundCloudLinkElement).toBeInTheDocument();
+    expect(youTubeLinkElement).toBeInTheDocument();
+    expect(InstagramLinkElement).toBeInTheDocument();
+    expect(TwitterLinkElement).toBeInTheDocument();
   });
 });
