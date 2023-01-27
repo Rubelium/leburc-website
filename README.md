@@ -73,7 +73,7 @@
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-#### To Do
+## To Do
 
 - Create individual page for "About" NavBar link
 - Create individual page for "Contact" NavBar link
