@@ -1,18 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it should render the snapshot of the <SocialMediaLinks /> component 1`] = `
+exports[`it should render the snapshot of the <Body /> component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        Social Media Links
+      <div
+        class="app-body"
+      >
+        <div
+          class="media-player-wrapper"
+        >
+          <div
+            style="width: 100%; height: 100%;"
+          />
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
-      Social Media Links
+    <div
+      class="app-body"
+    >
+      <div
+        class="media-player-wrapper"
+      >
+        <div
+          style="width: 100%; height: 100%;"
+        />
+      </div>
     </div>
   </div>,
   "debug": [Function],

@@ -1,9 +1,9 @@
 import { render } from "@testing-library/react";
-import App from "../App";
+import Footer from "../Footer";
 
 describe("it should render", () => {
-  test("the snapshot of the <App /> component", () => {
-    const component = render(<App />);
+  test("the snapshot of the <Footer /> component", () => {
+    const component = render(<Footer />);
 
     expect(component).toMatchSnapshot();
   });
