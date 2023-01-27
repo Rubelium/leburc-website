@@ -7,17 +7,16 @@ import logo from "../../png/logoF2t4BlackWhiteCircleFilled.png";
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" fixed="top" expand="lg">
-        <Container>
+      <Container>
+        <Navbar bg="dark" variant="dark" fixed="top" expand="md" style={{ paddingLeft: "40px", paddingRight: "40px" }}>
           <Navbar.Brand href="#home">
-            <img src={logo} className="d-inline-block align-top" alt="logo" width="30" height="30" />
+            <img src={logo} className="d-inline-block" alt="logo" width="60" height="60" />
             {" "}FLOOR<sup>4</sup>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#spotlights">Spotlights</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
@@ -36,8 +35,8 @@ function NavBar() {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
-      </Navbar>
+        </Navbar>
+      </Container>
     </>
   );
 }
