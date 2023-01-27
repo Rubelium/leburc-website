@@ -72,3 +72,13 @@
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
+#### To Do
+
+- Create individual page for "About" NavBar link
+- Create individual page for "Contact" NavBar link
+- Create sticky footer media player for SoundCloud
+- Fill out home page body
+- Fill out footer details
+- Setup domain
+- Setup email server
