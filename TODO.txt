@@ -10,3 +10,7 @@
 - Setup NavBar pages and forms
 - Setup auto blog section with feeds from favorites
 - Setup music search tree
+- Setup site analytics
+- Setup tracking cookies
+- Setup Azure DevOps
+- Setup CMS and deployment variables
