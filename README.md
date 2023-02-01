@@ -10,16 +10,24 @@
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   - The page will reload if you make edits.
 
-### `yarn test`
-
-- Launches the test runner in the interactive watch mode.
-
 ### `yarn build`
 
 - Builds the app for production to the `build` folder.
 - It correctly bundles React in production mode and optimizes the build for the best performance.
 - The build is minified and the filenames include the hashes.
 - Application is now ready to be deployed.
+
+### `yarn predeploy`
+
+- Pre-deploy for deploying app to GitHub Pages.
+
+### `yarn deploy`
+
+- Deploy the app to GitHub Pages.
+
+### `yarn test`
+
+- Launches the test runner in the interactive watch mode.
 
 ### `yarn lint` or `yarn lint:fix`
 
@@ -72,13 +80,3 @@
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-
-## To Do
-
-- Create individual page for "About" NavBar link
-- Create individual page for "Contact" NavBar link
-- Create sticky footer media player for SoundCloud
-- Fill out home page body
-- Fill out footer details
-- Setup domain
-- Setup email server
