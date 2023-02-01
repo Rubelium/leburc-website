@@ -1,8 +1,8 @@
 # Getting Started
 
-- This project was bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
-- This project uses [Yarn](https://yarnpkg.com/) as a package manager.
-- Update your version of [Node.js](https://nodejs.org/en/) to the latest LTS version.
+- Bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
+- Uses [Yarn](https://yarnpkg.com/) as a package manager.
+- Uses the latest [Node.js](https://nodejs.org/en/) LTS version.
 
 ## Available Scripts
 
@@ -10,7 +10,7 @@
 
 - Runs the app in the development mode.
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-  - The page will reload if you make edits.
+  - The page will automatically reload if you make edits.
 
 ### `yarn build`
 
@@ -26,6 +26,7 @@
 ### `yarn deploy`
 
 - Deploy the app to GitHub Pages.
+- You can access the app [here](https://rubelium.github.io/floorToTheFour-website/).
 
 ### `yarn test`
 
@@ -45,14 +46,14 @@
 - If components or code is shareable then move it to the `\common` folder.
   - Example: `src\common\CommonExample.tsx`
 
-### JavaScript Testing
+### JavaScript/TypeScript Testing
 
 - All testable components should contain a `\tests` directory with unit tests and snapshots.
-- Snapshots should always be examined in the PR process for introduced errors or new functionality.
+- Snapshots should be examined in the PR process for introduced errors.
   - Example: `src\feature\featureName\tests\FeatureName.test.tsx`
   - Example: `src\feature\featureName\tests\__snapshots__\FeatureName.test.tsx.snap`
 
-## Visual Studio Code
+## Visual Studio Code Settings
 
 ### `settings.json`
 

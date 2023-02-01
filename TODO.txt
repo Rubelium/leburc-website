@@ -1,8 +1,9 @@
 - Get correct fonts on site
 - Setup body content
-- Setup NavBar pages and forms
-- Setup domain/emails
+- Setup NavBar pages and forms (react-router?)
+- Setup domain/emails (GoDaddy?)
 - Setup site analytics
 - Setup tracking cookies notification
-- Setup deployment host (netlify?)
+- Setup deployment host (Netlify?)
+- Setup deployment notifications to MS Teams
 - Setup CMS and deployment variables
