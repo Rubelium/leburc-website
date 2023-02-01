@@ -10,7 +10,7 @@ function NavBar() {
       <Container>
         <Navbar bg="dark" variant="dark" fixed="top" expand="md" style={{ paddingLeft: "40px", paddingRight: "40px" }}>
           <Navbar.Brand href="#home">
-            <img src={logo} className="d-inline-block" alt="logo" width="60" height="60" />
+            <img src={logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
             {" "}FLOOR<sup>4</sup>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
