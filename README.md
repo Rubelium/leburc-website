@@ -1,6 +1,8 @@
 # Getting Started
 
 - This project was bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
+- This project uses [Yarn](https://yarnpkg.com/) as a package manager.
+- Update your version of [Node.js](https://nodejs.org/en/) to the latest LTS version.
 
 ## Available Scripts
 
@@ -38,16 +40,17 @@
 ### Folder Structure
 
 - The main entry file in every folder in the `\feature` directory is named after the folder.
-  - Ex: `src\feature\featureName\FeatureName.tsx`
+  - Example: `src\feature\featureName\FeatureName.tsx`
 - All folder names are lowercase.
 - If components or code is shareable then move it to the `\common` folder.
+  - Example: `src\common\CommonExample.tsx`
 
 ### JavaScript Testing
 
 - All testable components should contain a `\tests` directory with unit tests and snapshots.
 - Snapshots should always be examined in the PR process for introduced errors or new functionality.
-  - Ex: `src\feature\featureName\tests\FeatureName.test.tsx`
-  - Ex: `src\feature\featureName\tests\__snapshots__\FeatureName.test.tsx.snap`
+  - Example: `src\feature\featureName\tests\FeatureName.test.tsx`
+  - Example: `src\feature\featureName\tests\__snapshots__\FeatureName.test.tsx.snap`
 
 ## Visual Studio Code
 

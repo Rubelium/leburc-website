@@ -1,13 +1,8 @@
-- Music player for SoundCloud
-- Video player for YouTube
 - Get correct fonts on site
-- Setup notification above navigation NavBar
-- Setup domain/emails
-- Deploy test site
+- Setup body content
 - Setup NavBar pages and forms
-- Setup auto blog section with feeds from favorites
-- Setup music search tree
+- Setup domain/emails
 - Setup site analytics
-- Setup tracking cookies
-- Setup Azure DevOps
+- Setup tracking cookies notification
+- Setup deployment host (netlify?)
 - Setup CMS and deployment variables
