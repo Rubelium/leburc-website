@@ -1,36 +1,36 @@
 # Getting Started
 
 - Bootstrapped with [Create React App (TypeScript)](https://create-react-app.dev/docs/adding-typescript/).
-- Uses [Yarn](https://yarnpkg.com/) as a package manager.
+- Uses [Yarn](https://yarnpkg.com/) as the package manager.
 - Uses the latest [Node.js](https://nodejs.org/en/) LTS version.
 
 ## Available Scripts
 
 ### `yarn start`
 
-- Runs the app in the development mode.
-- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-  - The page will automatically reload if you make edits.
+- Runs the application in development mode.
+  - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - Page will automatically reload if you make edits.
 
 ### `yarn build`
 
-- Builds the app for production to the `build` folder.
-- It correctly bundles React in production mode and optimizes the build for the best performance.
-- The build is minified and the filenames include the hashes.
+- Builds the application for production to the `build` folder.
+- Correctly bundles React in production mode and optimizes build for best performance.
+- Build is minified and filenames include the hashes.
 - Application is now ready to be deployed.
 
 ### `yarn predeploy`
 
-- Pre-deploy for deploying app to GitHub Pages.
+- Pre-deploy for deploying application to GitHub Pages.
 
 ### `yarn deploy`
 
-- Deploy the app to GitHub Pages.
+- Deploy the application to GitHub Pages.
 - You can access the app [here](https://rubelium.github.io/floorToTheFour-website/).
 
 ### `yarn test`
 
-- Launches the test runner in the interactive watch mode.
+- Launches the test runner in interactive watch mode.
 
 ### `yarn lint` or `yarn lint:fix`
 
@@ -43,10 +43,10 @@
 - The main entry file in every folder in the `\feature` directory is named after the folder.
   - Example: `src\feature\featureName\FeatureName.tsx`
 - All folder names are lowercase.
-- If components or code is shareable then move it to the `\common` folder.
+- If components or code is shareable it should be in the `\common` folder.
   - Example: `src\common\CommonExample.tsx`
 
-### JavaScript/TypeScript Testing
+### JavaScript / TypeScript Testing
 
 - All testable components should contain a `\tests` directory with unit tests and snapshots.
 - Snapshots should be examined in the PR process for introduced errors.
