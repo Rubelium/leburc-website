@@ -11,6 +11,7 @@ const Footer = () => {
       <div >
         <SocialIcon url="https://soundcloud.com/f2t4" />{" "}
         <SocialIcon url="https://www.youtube.com/F2t4TV" />{" "}
+        <SocialIcon url="https://open.spotify.com/user/f2t4" />{" "}
         <SocialIcon url="https://www.instagram.com/f2t4/" />{" "}
         <SocialIcon url="https://twitter.com/_F2t4" />
       </div>

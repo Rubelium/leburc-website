@@ -1,8 +1,5 @@
-- Get Spotify social added
 - Music player for SoundCloud
 - Video player for YouTube
-- Setup Microsoft Teams
-- SC's Multi distro thing
 - Get correct fonts on site
 - Setup notification above navigation NavBar
 - Setup domain/emails

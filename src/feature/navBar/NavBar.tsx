@@ -27,6 +27,9 @@ function NavBar() {
               <Nav.Link href="https://www.youtube.com/F2t4TV">
                 <SocialIcon url="https://www.youtube.com/F2t4TV" bgColor="#FFFFFF" />
               </Nav.Link>
+              <Nav.Link href="https://open.spotify.com/user/f2t4">
+                <SocialIcon url="https://open.spotify.com/user/f2t4" bgColor="#FFFFFF" />{" "}
+              </Nav.Link>
               <Nav.Link href="https://www.instagram.com/f2t4/">
                 <SocialIcon url="https://www.instagram.com/f2t4/" bgColor="#FFFFFF" />
               </Nav.Link>
