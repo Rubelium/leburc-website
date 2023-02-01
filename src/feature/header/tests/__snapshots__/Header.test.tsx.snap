@@ -9,21 +9,28 @@ Object {
         class="app-header"
       >
         <img
-          alt="logo"
+          alt="F2T4 Logo"
           class="app-logo"
           data-testid="app-logo"
           src="logoF2t4BlackWhiteCircleFilled.png"
         />
         <img
-          alt="logo"
+          alt="F2T4 Title"
           class="app-title"
           data-testid="app-title"
           src="titleF2t4.png"
         />
         <br />
-        <h5>
+        <h1
+          style="display: none;"
+        >
+          Floor to the Four - Floor⁴
+        </h1>
+        <h2
+          style="font-size: 1.25rem;"
+        >
           NO PERSONALITIES • NO FACES • JUST SLAMMING TRACKS
-        </h5>
+        </h2>
       </header>
     </div>
   </body>,
@@ -32,21 +39,28 @@ Object {
       class="app-header"
     >
       <img
-        alt="logo"
+        alt="F2T4 Logo"
         class="app-logo"
         data-testid="app-logo"
         src="logoF2t4BlackWhiteCircleFilled.png"
       />
       <img
-        alt="logo"
+        alt="F2T4 Title"
         class="app-title"
         data-testid="app-title"
         src="titleF2t4.png"
       />
       <br />
-      <h5>
+      <h1
+        style="display: none;"
+      >
+        Floor to the Four - Floor⁴
+      </h1>
+      <h2
+        style="font-size: 1.25rem;"
+      >
         NO PERSONALITIES • NO FACES • JUST SLAMMING TRACKS
-      </h5>
+      </h2>
     </header>
   </div>,
   "debug": [Function],

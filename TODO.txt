@@ -1,4 +1,5 @@
 - Get correct fonts on site
+- Cleanup logo edges
 - Setup body content
 - Setup NavBar pages and forms (react-router?)
 - Setup domain/emails (GoDaddy?)
