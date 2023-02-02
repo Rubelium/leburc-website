@@ -1,5 +1,7 @@
 - Get correct fonts on site
 - Cleanup logo edges
+- Add email file
+- Update coloring
 - Setup body content
 - Setup NavBar pages and forms (react-router?)
 - Setup domain/emails (GoDaddy?)
@@ -8,3 +10,4 @@
 - Setup deployment host (Netlify?)
 - Setup deployment notifications to MS Teams
 - Setup CMS and deployment variables
+- Make law office websites
