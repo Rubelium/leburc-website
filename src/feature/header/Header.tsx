@@ -11,7 +11,7 @@ const Header = () => {
         Floor to the Four - Floor&#8308;
       </h1>
       <h2 style={{ fontSize: "1.25rem" }}>
-        NO PERSONALITIES &#8226; NO FACES &#8226; JUST SLAMMING TRACKS
+        SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
       </h2>
     </header >
   );
