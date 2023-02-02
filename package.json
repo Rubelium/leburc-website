@@ -1,6 +1,6 @@
 {
   "name": "f2t4-website",
-  "homepage": "https://www.floortothefour.com/",
+  "homepage": "https://www.floortothefour.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
