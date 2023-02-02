@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/floorToTheFour-website/static/css/main.352c548a.css",
-    "main.js": "/floorToTheFour-website/static/js/main.fa02f8f1.js",
-    "static/js/787.df814168.chunk.js": "/floorToTheFour-website/static/js/787.df814168.chunk.js",
-    "static/media/logoF2t4BlackWhiteCircleFilled.png": "/floorToTheFour-website/static/media/logoF2t4BlackWhiteCircleFilled.002aa199edca1a4ac970.png",
-    "static/media/titleF2t4.png": "/floorToTheFour-website/static/media/titleF2t4.45b44dc521cdb91e066f.png",
-    "index.html": "/floorToTheFour-website/index.html",
-    "main.352c548a.css.map": "/floorToTheFour-website/static/css/main.352c548a.css.map",
-    "main.fa02f8f1.js.map": "/floorToTheFour-website/static/js/main.fa02f8f1.js.map",
-    "787.df814168.chunk.js.map": "/floorToTheFour-website/static/js/787.df814168.chunk.js.map"
+    "main.css": "/static/css/main.352c548a.css",
+    "main.js": "/static/js/main.e25f59e0.js",
+    "static/js/787.df814168.chunk.js": "/static/js/787.df814168.chunk.js",
+    "static/media/logoF2t4BlackWhiteCircleFilled.png": "/static/media/logoF2t4BlackWhiteCircleFilled.002aa199edca1a4ac970.png",
+    "static/media/titleF2t4.png": "/static/media/titleF2t4.45b44dc521cdb91e066f.png",
+    "index.html": "/index.html",
+    "main.352c548a.css.map": "/static/css/main.352c548a.css.map",
+    "main.e25f59e0.js.map": "/static/js/main.e25f59e0.js.map",
+    "787.df814168.chunk.js.map": "/static/js/787.df814168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.352c548a.css",
-    "static/js/main.fa02f8f1.js"
+    "static/js/main.e25f59e0.js"
   ]
 }
