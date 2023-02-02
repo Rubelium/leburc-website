@@ -1,5 +1,5 @@
 import logo from "../../png/logoF2t4BlackWhiteCircleFilled.png";
-import title from "../../png/titleF2t4.png";
+import title from "../../png/titleF2t4White.png";
 
 const Header = () => {
   return (

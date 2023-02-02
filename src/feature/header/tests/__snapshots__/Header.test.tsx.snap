@@ -18,7 +18,7 @@ Object {
           alt="F2T4 Title"
           class="app-title"
           data-testid="app-title"
-          src="titleF2t4.png"
+          src="titleF2t4White.png"
         />
         <br />
         <h1
@@ -48,7 +48,7 @@ Object {
         alt="F2T4 Title"
         class="app-title"
         data-testid="app-title"
-        src="titleF2t4.png"
+        src="titleF2t4White.png"
       />
       <br />
       <h1

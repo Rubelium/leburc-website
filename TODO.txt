@@ -4,6 +4,7 @@
 - Update coloring
 - Setup body content
 - Setup NavBar pages and forms (react-router?)
+- Set github 404 page
 - Setup domain/emails (GoDaddy?)
 - Setup site analytics
 - Setup tracking cookies notification

@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <>
       <Container>
-        <Navbar bg="dark" variant="dark" fixed="top" expand="md" style={{ paddingLeft: "40px", paddingRight: "40px" }}>
+        <Navbar bg="light" variant="light" fixed="top" expand="md" style={{ paddingLeft: "40px", paddingRight: "40px" }}>
           <Navbar.Brand href="#home">
             <img src={logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
             {" "}FLOOR<sup>4</sup>
@@ -22,24 +22,26 @@ function NavBar() {
             </Nav>
             <Nav>
               <Nav.Link href="https://soundcloud.com/f2t4">
-                <SocialIcon url="https://soundcloud.com/f2t4" bgColor="#FFFFFF" />
+                <SocialIcon url="https://soundcloud.com/f2t4" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://www.youtube.com/F2t4TV">
-                <SocialIcon url="https://www.youtube.com/F2t4TV" bgColor="#FFFFFF" />
+                <SocialIcon url="https://www.youtube.com/F2t4TV" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://open.spotify.com/user/f2t4">
-                <SocialIcon url="https://open.spotify.com/user/f2t4" bgColor="#FFFFFF" />{" "}
+                <SocialIcon url="https://open.spotify.com/user/f2t4" bgColor="#000000" />{" "}
               </Nav.Link>
               <Nav.Link href="https://www.instagram.com/f2t4/">
-                <SocialIcon url="https://www.instagram.com/f2t4/" bgColor="#FFFFFF" />
+                <SocialIcon url="https://www.instagram.com/f2t4/" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://twitter.com/_F2t4">
-                <SocialIcon url="https://twitter.com/_F2t4" bgColor="#FFFFFF" />
+                <SocialIcon url="https://twitter.com/_F2t4" bgColor="#000000" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
       </Container>
+      <br />
+      <br />
     </>
   );
 }

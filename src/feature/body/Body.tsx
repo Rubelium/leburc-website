@@ -12,7 +12,7 @@ const Body = () => {
           height="100%"
         />
       </div> */}
-      <Spinner animation="border" role="status">
+      <Spinner animation="border" role="status" variant="dark">
         <span className="visually-hidden">Loading...</span>
       </Spinner>
     </div >

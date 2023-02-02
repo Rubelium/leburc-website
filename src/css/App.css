@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  background-color: #00AEAE;
+  background-color: #212529;
 }
 
 .app-title {
@@ -19,15 +19,16 @@
 }
 
 .app-header {
-  min-height: 65vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: #FFD478;
 }
 
 .app-body {
-  min-height: 15vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
