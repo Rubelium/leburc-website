@@ -3,17 +3,17 @@ import { Spinner } from "react-bootstrap";
 const Body = () => {
   return (
     <>
-      <div className="app-body">
+      <div className="app-body-section">
         <Spinner animation="border" role="status" variant="dark">
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       </div>
-      <div className="app-body-alt">
+      <div className="app-body-section-alt">
         <Spinner animation="border" role="status" variant="light">
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       </div>
-      <div className="app-body">
+      <div className="app-body-section">
         <Spinner animation="border" role="status" variant="dark">
           <span className="visually-hidden">Loading...</span>
         </Spinner>

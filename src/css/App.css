@@ -27,7 +27,7 @@
   color: #FFFFFF;
 }
 
-.app-body {
+.app-body-section {
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
   background-color: #FFFFFF;
 }
 
-.app-body-alt {
+.app-body-section-alt {
   min-height: 20vh;
   display: flex;
   flex-direction: column;
