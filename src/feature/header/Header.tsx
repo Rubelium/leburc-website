@@ -7,10 +7,10 @@ const Header = () => {
       <img src={Logo} className="app-logo" alt="F2T4 Logo" />
       <img src={Title} className="app-title" alt="F2T4 Title" />
       <br />
-      <h1 style={{ display: "none" }}>
+      <h1 className="home-page-h1">
         Floor to the Four - Floor&#8308;
       </h1>
-      <h2 style={{ fontSize: "1.5rem" }}>
+      <h2 className="home-page-h2">
         SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
       </h2>
     </header >

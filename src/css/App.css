@@ -1,3 +1,5 @@
+/* App: */
+
 .app {
   text-align: center;
   background-color: #212529;
@@ -55,18 +57,33 @@
   color: #FFFFFF;
 }
 
-.media-player-wrapper {
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+/* Navigation Bar: */
 
-.basic-navbar-nav {
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 20px;
 }
 
+.navbar-link {
+  color: #707071;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #000000;
+}
+
+/* Homepage: */
+.home-page-h1 {
+  display: none;
+}
+
+.home-page-h2 {
+  font-size: 1.5rem;
+}
+
+/* At-rules: */
 @media (prefers-reduced-motion: no-preference) {
   .app-logo {
     animation: app-logo-spin infinite 30s linear;

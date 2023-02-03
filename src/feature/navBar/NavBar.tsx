@@ -12,22 +12,22 @@ const NavBar = () => {
   return (
     <>
       <Container>
-        <Navbar expanded={expanded} bg="light" variant="light" fixed="top" expand="md" style={{ paddingLeft: "20px", paddingRight: "20px" }}>
+        <Navbar expanded={expanded} bg="light" variant="light" fixed="top" expand="md">
           <Navbar.Brand href="#home">
             <img src={Logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
             {" "}FLOOR<sup>4</sup>
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
+          <Navbar.Collapse className="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
-                <Link to="/" onClick={() => setExpanded(false)}>Home</Link>
+                <Link className="navbar-link" to="/" onClick={() => setExpanded(false)}>Home</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/about" onClick={() => setExpanded(false)}>About</Link>
+                <Link className="navbar-link" to="/about" onClick={() => setExpanded(false)}>About</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/contact" onClick={() => setExpanded(false)}>Contact</Link>
+                <Link className="navbar-link" to="/contact" onClick={() => setExpanded(false)}>Contact</Link>
               </Nav.Link>
             </Nav>
             <Nav>
