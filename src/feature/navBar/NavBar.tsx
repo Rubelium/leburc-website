@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../png/logoF2t4BlackWhiteCircleFilled.png";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -16,9 +17,15 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link>
+                <Link to="/">Home</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/about">About</Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/contact">Contact</Link>
+              </Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link href="https://soundcloud.com/f2t4">

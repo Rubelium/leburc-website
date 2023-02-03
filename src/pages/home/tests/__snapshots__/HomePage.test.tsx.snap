@@ -1,10 +1,112 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it should render the snapshot of the <Body /> component 1`] = `
+exports[`it should render the snapshot of the <HomePage /> component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="home-page"
+      >
+        <header
+          class="app-header"
+        >
+          <img
+            alt="F2T4 Logo"
+            class="app-logo"
+            src="logoF2t4BlackWhiteCircleFilled.png"
+          />
+          <img
+            alt="F2T4 Title"
+            class="app-title"
+            src="titleF2t4White.png"
+          />
+          <br />
+          <h1
+            style="display: none;"
+          >
+            Floor to the Four - Floor⁴
+          </h1>
+          <h2
+            style="font-size: 1.5rem;"
+          >
+            SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
+          </h2>
+        </header>
+        <div
+          class="app-body-section"
+        >
+          <div
+            class="spinner-border text-dark"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+        <div
+          class="app-body-section-alt"
+        >
+          <div
+            class="spinner-border text-light"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+        <div
+          class="app-body-section"
+        >
+          <div
+            class="spinner-border text-dark"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-page"
+    >
+      <header
+        class="app-header"
+      >
+        <img
+          alt="F2T4 Logo"
+          class="app-logo"
+          src="logoF2t4BlackWhiteCircleFilled.png"
+        />
+        <img
+          alt="F2T4 Title"
+          class="app-title"
+          src="titleF2t4White.png"
+        />
+        <br />
+        <h1
+          style="display: none;"
+        >
+          Floor to the Four - Floor⁴
+        </h1>
+        <h2
+          style="font-size: 1.5rem;"
+        >
+          SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
+        </h2>
+      </header>
       <div
         class="app-body-section"
       >
@@ -46,50 +148,6 @@ Object {
             Loading...
           </span>
         </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="app-body-section"
-    >
-      <div
-        class="spinner-border text-dark"
-        role="status"
-      >
-        <span
-          class="visually-hidden"
-        >
-          Loading...
-        </span>
-      </div>
-    </div>
-    <div
-      class="app-body-section-alt"
-    >
-      <div
-        class="spinner-border text-light"
-        role="status"
-      >
-        <span
-          class="visually-hidden"
-        >
-          Loading...
-        </span>
-      </div>
-    </div>
-    <div
-      class="app-body-section"
-    >
-      <div
-        class="spinner-border text-dark"
-        role="status"
-      >
-        <span
-          class="visually-hidden"
-        >
-          Loading...
-        </span>
       </div>
     </div>
   </div>,

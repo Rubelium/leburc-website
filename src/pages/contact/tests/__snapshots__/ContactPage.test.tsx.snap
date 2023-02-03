@@ -1,63 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it should render the snapshot of the <Header /> component 1`] = `
+exports[`it should render the snapshot of the <ContactPage /> component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <header
-        class="app-header"
+      <div
+        class="contact-page"
+        style="margin-top: 25%;"
       >
-        <img
-          alt="F2T4 Logo"
-          class="app-logo"
-          src="logoF2t4BlackWhiteCircleFilled.png"
-        />
-        <img
-          alt="F2T4 Title"
-          class="app-title"
-          src="titleF2t4White.png"
-        />
-        <br />
         <h1
-          style="display: none;"
+          style="color: rgb(255, 255, 255); margin-bottom: 25%;"
         >
-          Floor to the Four - Floor⁴
+          Contact Us (WIP)
         </h1>
-        <h2
-          style="font-size: 1.5rem;"
+        <div
+          class="spinner-border text-light"
+          role="status"
         >
-          SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
-        </h2>
-      </header>
+          <span
+            class="visually-hidden"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <header
-      class="app-header"
+    <div
+      class="contact-page"
+      style="margin-top: 25%;"
     >
-      <img
-        alt="F2T4 Logo"
-        class="app-logo"
-        src="logoF2t4BlackWhiteCircleFilled.png"
-      />
-      <img
-        alt="F2T4 Title"
-        class="app-title"
-        src="titleF2t4White.png"
-      />
-      <br />
       <h1
-        style="display: none;"
+        style="color: rgb(255, 255, 255); margin-bottom: 25%;"
       >
-        Floor to the Four - Floor⁴
+        Contact Us (WIP)
       </h1>
-      <h2
-        style="font-size: 1.5rem;"
+      <div
+        class="spinner-border text-light"
+        role="status"
       >
-        SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
-      </h2>
-    </header>
+        <span
+          class="visually-hidden"
+        >
+          Loading...
+        </span>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
