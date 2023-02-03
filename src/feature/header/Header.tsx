@@ -10,7 +10,7 @@ const Header = () => {
       <h1 style={{ display: "none" }}>
         Floor to the Four - Floor&#8308;
       </h1>
-      <h2 style={{ fontSize: "1.25rem" }}>
+      <h2 style={{ fontSize: "2rem", WebkitTextStroke: "2px black" }}>
         SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
       </h2>
     </header >
