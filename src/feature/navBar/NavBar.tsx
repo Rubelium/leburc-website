@@ -4,27 +4,30 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../png/logoF2t4BlackWhiteCircleFilled.png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
-function NavBar() {
+const NavBar = () => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <>
       <Container>
-        <Navbar bg="light" variant="light" fixed="top" expand="md" style={{ paddingLeft: "20px", paddingRight: "20px" }}>
+        <Navbar expanded={expanded} bg="light" variant="light" fixed="top" expand="md" style={{ paddingLeft: "20px", paddingRight: "20px" }}>
           <Navbar.Brand href="#home">
             <img src={logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
             {" "}FLOOR<sup>4</sup>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={() => setExpanded(false)}>Home</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={() => setExpanded(false)}>About</Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" onClick={() => setExpanded(false)}>Contact</Link>
               </Nav.Link>
             </Nav>
             <Nav>
@@ -51,6 +54,6 @@ function NavBar() {
       <br />
     </>
   );
-}
+};
 
 export default NavBar;
