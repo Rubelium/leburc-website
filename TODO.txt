@@ -1,14 +1,7 @@
 - Get correct fonts on site
 - Cleanup logo edges
-- Add email file
-- Update coloring
 - Setup body content
-- Setup NavBar pages and forms (react-router?)
 - Set github 404 page
-- Setup domain/emails (GoDaddy?)
-- Setup site analytics
-- Setup tracking cookies notification
-- Setup deployment host (Netlify?)
-- Setup deployment notifications to MS Teams
 - Setup CMS and deployment variables
-- Make law office websites
+- Setup web vitals
+- Make law office website

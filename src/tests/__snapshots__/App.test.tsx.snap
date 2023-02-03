@@ -13,7 +13,7 @@ Object {
         >
           <nav
             class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-            style="padding-left: 40px; padding-right: 40px;"
+            style="padding-left: 20px; padding-right: 20px;"
           >
             <a
               class="navbar-brand"
@@ -51,24 +51,39 @@ Object {
               >
                 <a
                   class="nav-link"
-                  data-rr-ui-event-key="#home"
-                  href="#home"
+                  href="#"
+                  role="button"
+                  tabindex="0"
                 >
-                  Home
+                  <a
+                    href="/"
+                  >
+                    Home
+                  </a>
                 </a>
                 <a
                   class="nav-link"
-                  data-rr-ui-event-key="#about"
-                  href="#about"
+                  href="#"
+                  role="button"
+                  tabindex="0"
                 >
-                  About
+                  <a
+                    href="/about"
+                  >
+                    About
+                  </a>
                 </a>
                 <a
                   class="nav-link"
-                  data-rr-ui-event-key="#contact"
-                  href="#contact"
+                  href="#"
+                  role="button"
+                  tabindex="0"
                 >
-                  Contact
+                  <a
+                    href="/contact"
+                  >
+                    Contact
+                  </a>
                 </a>
               </div>
               <div
@@ -223,7 +238,6 @@ Object {
                       </svg>
                     </div>
                   </a>
-                   
                 </a>
                 <a
                   class="nav-link"
@@ -331,45 +345,75 @@ Object {
         </div>
         <br />
         <br />
-        <header
-          class="app-header"
-        >
-          <img
-            alt="F2T4 Logo"
-            class="app-logo"
-            data-testid="app-logo"
-            src="logoF2t4BlackWhiteCircleFilled.png"
-          />
-          <img
-            alt="F2T4 Title"
-            class="app-title"
-            data-testid="app-title"
-            src="titleF2t4White.png"
-          />
-          <br />
-          <h1
-            style="display: none;"
-          >
-            Floor to the Four - Floor⁴
-          </h1>
-          <h2
-            style="font-size: 1.25rem;"
-          >
-            SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
-          </h2>
-        </header>
         <div
-          class="app-body"
+          class="home-page"
         >
-          <div
-            class="spinner-border text-dark"
-            role="status"
+          <header
+            class="app-header"
           >
-            <span
-              class="visually-hidden"
+            <img
+              alt="F2T4 Logo"
+              class="app-logo"
+              src="logoF2t4BlackWhiteCircleFilled.png"
+            />
+            <img
+              alt="F2T4 Title"
+              class="app-title"
+              src="titleF2t4White.png"
+            />
+            <br />
+            <h1
+              style="display: none;"
             >
-              Loading...
-            </span>
+              Floor to the Four - Floor⁴
+            </h1>
+            <h2
+              style="font-size: 1.5rem;"
+            >
+              SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
+            </h2>
+          </header>
+          <div
+            class="app-body-section"
+          >
+            <div
+              class="spinner-border text-dark"
+              role="status"
+            >
+              <span
+                class="visually-hidden"
+              >
+                Loading...
+              </span>
+            </div>
+          </div>
+          <div
+            class="app-body-section-alt"
+          >
+            <div
+              class="spinner-border text-light"
+              role="status"
+            >
+              <span
+                class="visually-hidden"
+              >
+                Loading...
+              </span>
+            </div>
+          </div>
+          <div
+            class="app-body-section"
+          >
+            <div
+              class="spinner-border text-dark"
+              role="status"
+            >
+              <span
+                class="visually-hidden"
+              >
+                Loading...
+              </span>
+            </div>
           </div>
         </div>
         <div
@@ -619,7 +663,7 @@ Object {
       >
         <nav
           class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-          style="padding-left: 40px; padding-right: 40px;"
+          style="padding-left: 20px; padding-right: 20px;"
         >
           <a
             class="navbar-brand"
@@ -657,24 +701,39 @@ Object {
             >
               <a
                 class="nav-link"
-                data-rr-ui-event-key="#home"
-                href="#home"
+                href="#"
+                role="button"
+                tabindex="0"
               >
-                Home
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
               </a>
               <a
                 class="nav-link"
-                data-rr-ui-event-key="#about"
-                href="#about"
+                href="#"
+                role="button"
+                tabindex="0"
               >
-                About
+                <a
+                  href="/about"
+                >
+                  About
+                </a>
               </a>
               <a
                 class="nav-link"
-                data-rr-ui-event-key="#contact"
-                href="#contact"
+                href="#"
+                role="button"
+                tabindex="0"
               >
-                Contact
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
               </a>
             </div>
             <div
@@ -829,7 +888,6 @@ Object {
                     </svg>
                   </div>
                 </a>
-                 
               </a>
               <a
                 class="nav-link"
@@ -937,45 +995,75 @@ Object {
       </div>
       <br />
       <br />
-      <header
-        class="app-header"
-      >
-        <img
-          alt="F2T4 Logo"
-          class="app-logo"
-          data-testid="app-logo"
-          src="logoF2t4BlackWhiteCircleFilled.png"
-        />
-        <img
-          alt="F2T4 Title"
-          class="app-title"
-          data-testid="app-title"
-          src="titleF2t4White.png"
-        />
-        <br />
-        <h1
-          style="display: none;"
-        >
-          Floor to the Four - Floor⁴
-        </h1>
-        <h2
-          style="font-size: 1.25rem;"
-        >
-          SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
-        </h2>
-      </header>
       <div
-        class="app-body"
+        class="home-page"
       >
-        <div
-          class="spinner-border text-dark"
-          role="status"
+        <header
+          class="app-header"
         >
-          <span
-            class="visually-hidden"
+          <img
+            alt="F2T4 Logo"
+            class="app-logo"
+            src="logoF2t4BlackWhiteCircleFilled.png"
+          />
+          <img
+            alt="F2T4 Title"
+            class="app-title"
+            src="titleF2t4White.png"
+          />
+          <br />
+          <h1
+            style="display: none;"
           >
-            Loading...
-          </span>
+            Floor to the Four - Floor⁴
+          </h1>
+          <h2
+            style="font-size: 1.5rem;"
+          >
+            SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
+          </h2>
+        </header>
+        <div
+          class="app-body-section"
+        >
+          <div
+            class="spinner-border text-dark"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+        <div
+          class="app-body-section-alt"
+        >
+          <div
+            class="spinner-border text-light"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
+        </div>
+        <div
+          class="app-body-section"
+        >
+          <div
+            class="spinner-border text-dark"
+            role="status"
+          >
+            <span
+              class="visually-hidden"
+            >
+              Loading...
+            </span>
+          </div>
         </div>
       </div>
       <div

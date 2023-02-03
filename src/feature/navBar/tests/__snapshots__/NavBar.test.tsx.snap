@@ -10,7 +10,7 @@ Object {
       >
         <nav
           class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-          style="padding-left: 40px; padding-right: 40px;"
+          style="padding-left: 20px; padding-right: 20px;"
         >
           <a
             class="navbar-brand"
@@ -48,24 +48,39 @@ Object {
             >
               <a
                 class="nav-link"
-                data-rr-ui-event-key="#home"
-                href="#home"
+                href="#"
+                role="button"
+                tabindex="0"
               >
-                Home
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
               </a>
               <a
                 class="nav-link"
-                data-rr-ui-event-key="#about"
-                href="#about"
+                href="#"
+                role="button"
+                tabindex="0"
               >
-                About
+                <a
+                  href="/about"
+                >
+                  About
+                </a>
               </a>
               <a
                 class="nav-link"
-                data-rr-ui-event-key="#contact"
-                href="#contact"
+                href="#"
+                role="button"
+                tabindex="0"
               >
-                Contact
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
               </a>
             </div>
             <div
@@ -220,7 +235,6 @@ Object {
                     </svg>
                   </div>
                 </a>
-                 
               </a>
               <a
                 class="nav-link"
@@ -336,7 +350,7 @@ Object {
     >
       <nav
         class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-        style="padding-left: 40px; padding-right: 40px;"
+        style="padding-left: 20px; padding-right: 20px;"
       >
         <a
           class="navbar-brand"
@@ -374,24 +388,39 @@ Object {
           >
             <a
               class="nav-link"
-              data-rr-ui-event-key="#home"
-              href="#home"
+              href="#"
+              role="button"
+              tabindex="0"
             >
-              Home
+              <a
+                href="/"
+              >
+                Home
+              </a>
             </a>
             <a
               class="nav-link"
-              data-rr-ui-event-key="#about"
-              href="#about"
+              href="#"
+              role="button"
+              tabindex="0"
             >
-              About
+              <a
+                href="/about"
+              >
+                About
+              </a>
             </a>
             <a
               class="nav-link"
-              data-rr-ui-event-key="#contact"
-              href="#contact"
+              href="#"
+              role="button"
+              tabindex="0"
             >
-              Contact
+              <a
+                href="/contact"
+              >
+                Contact
+              </a>
             </a>
           </div>
           <div
@@ -546,7 +575,6 @@ Object {
                   </svg>
                 </div>
               </a>
-               
             </a>
             <a
               class="nav-link"

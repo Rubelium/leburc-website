@@ -1,7 +1,7 @@
-import NavBar from "./feature/navBar/NavBar";
 import "./css/App.css";
-import Main from "./Main";
 import Footer from "./feature/footer/Footer";
+import Main from "./Main";
+import NavBar from "./feature/navBar/NavBar";
 
 const App = () => {
   return (

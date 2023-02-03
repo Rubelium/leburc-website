@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import logo from "../../png/logoF2t4BlackWhiteCircleFilled.png";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import Container from "react-bootstrap/Container";
+import Logo from "../../images/png/logoF2t4BlackWhiteCircleFilled.png";
+import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -14,7 +14,7 @@ const NavBar = () => {
       <Container>
         <Navbar expanded={expanded} bg="light" variant="light" fixed="top" expand="md" style={{ paddingLeft: "20px", paddingRight: "20px" }}>
           <Navbar.Brand href="#home">
-            <img src={logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
+            <img src={Logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
             {" "}FLOOR<sup>4</sup>
           </Navbar.Brand>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} aria-controls="basic-navbar-nav" />

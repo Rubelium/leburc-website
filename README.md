@@ -43,8 +43,6 @@
 - The main entry file in every folder in the `\feature` directory is named after the folder.
   - Example: `src\feature\featureName\FeatureName.tsx`
 - All folder names are lowercase.
-- If components or code is shareable it should be in the `\common` folder.
-  - Example: `src\common\CommonExample.tsx`
 
 ### JavaScript / TypeScript Testing
 
