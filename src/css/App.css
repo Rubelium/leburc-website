@@ -65,6 +65,10 @@
   font-size: 20px;
 }
 
+.navbar-title-superscript {
+  font-size: 12px;
+}
+
 .navbar-link {
   color: #707071;
   text-decoration: none;

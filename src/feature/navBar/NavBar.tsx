@@ -13,10 +13,12 @@ const NavBar = () => {
     <>
       <Container>
         <Navbar expanded={expanded} bg="light" variant="light" fixed="top" expand="md">
-          <Navbar.Brand href="#home">
-            <img src={Logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
-            {" "}FLOOR<sup>4</sup>
-          </Navbar.Brand>
+          <Link className="navbar-link" to="/" onClick={() => setExpanded(false)}>
+            <Navbar.Brand href="#home">
+              <img src={Logo} className="d-inline-block" alt="F2T4 Logo" width="60" height="60" />
+              {" "}FLOOR<sup className="navbar-title-superscript">4</sup>
+            </Navbar.Brand>
+          </Link>
           <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="basic-navbar-nav">
             <Nav className="me-auto">
