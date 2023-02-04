@@ -10,11 +10,13 @@
 .header-title {
   height: 7.5vmin;
   pointer-events: none;
+  user-select: none;
 }
 
 .header-logo {
   height: 30vmin;
   pointer-events: none;
+  user-select: none;
 }
 
 .header-h1 {

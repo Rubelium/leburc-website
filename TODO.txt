@@ -1,14 +1,14 @@
-- Get correct fonts on site
-- Cleanup logo/title edges
-- Make images/text not selectable
-- Speed up image loading
-- Fix canonical links and meta on pages
+- Get better fonts/colors
+- Cleanup logo/title in photo editor
+- Speed up image loading (caching)
+- Fix canonical links and meta on pages (react-helmet)
+
+- Setup body content for homepage and about us page
+- Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
+- Setup attachment for contact us page
+- Setup CMS and deployment variables
+
 - Check security on github
 - Check analytics and performance
-- Setup caching
-- Setup body content
-- Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
-- Setup attachment for contact
-- Setup CMS and deployment variables
-- Setup web vitals
+
 - Make law office website*
