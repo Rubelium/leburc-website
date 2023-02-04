@@ -1,5 +1,5 @@
 .contact-page {
-  background-color: #212529;
+  background-color: #000000;
 }
 
 .contact-page-h1 {
@@ -55,7 +55,7 @@ input[type="button"]:hover {
 }
 
 input[type="submit"] {
-  background: #bf1650;
+  background: #1FA3D6;
   color: white;
   text-transform: uppercase;
   font-size: 16px;
@@ -68,7 +68,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: #680c2c;
+  background: #136585;
 }
 
 input[type="button"]:active,
