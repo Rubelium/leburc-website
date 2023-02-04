@@ -1,7 +1,10 @@
 - Get correct fonts on site
 - Cleanup logo edges
 - Setup body content
+- Setup submitting email
+- Setup attachment for contact
+- Setup routing directly to about or contact
 - Set github 404 page
 - Setup CMS and deployment variables
 - Setup web vitals
-- Make law office website
+- Make law office website*
