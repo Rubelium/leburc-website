@@ -33,7 +33,7 @@ const ContactPage = () => {
         </div>
         <div>
           <label>Message</label>
-          <textarea {...register("message", { required: true })} placeholder="Type your message here..." />
+          <textarea {...register("message", { required: true })} rows={10} placeholder="Type your message here..." />
         </div>
         <input type="submit" />
       </form>
