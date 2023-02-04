@@ -1,13 +1,14 @@
 - Get better fonts/colors
 - Cleanup logo/title in photo editor
-- Add linear gradient to dark footer
 - Speed up image loading (caching)
 
 - Setup body content for home page
 - Setup body content for about us page
 - Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
 - Setup attachment for contact us page
+- Setup mobile styling (https://www.npmjs.com/package/react-responsive)
 - Setup CMS and deployment variables
+- Setup indexing on Google
 
 - Check security on github
 - Check analytics and performance
