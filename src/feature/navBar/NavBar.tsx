@@ -1,3 +1,4 @@
+import "./navBar.css";
 import { Link } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";

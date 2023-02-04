@@ -1,5 +1,6 @@
-import "../../css/ContactPage.css";
+import "./contactPage.css";
 import { useForm } from "react-hook-form";
+import Footer from "../../feature/footer/Footer";
 
 interface IFormInputs {
   firstName: string;
@@ -21,15 +22,15 @@ const ContactPage = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>First Name</label>
-          <input {...register("firstName", { required: true })} placeholder="What's your first name?" />
+          <input {...register("firstName", { required: true })} type="text" placeholder="Enter your first name..." />
         </div>
         <div>
           <label>Last Name</label>
-          <input {...register("lastName", { required: true })} placeholder="What's your last name?" />
+          <input {...register("lastName", { required: true })} type="text" placeholder="Enter your last name..." />
         </div>
         <div>
           <label htmlFor="email">Email</label>
-          <input {...register("email", { required: true })} type="email" placeholder="What's your email address?" />
+          <input {...register("email", { required: true })} type="email" placeholder="Enter your email..." />
         </div>
         <div>
           <label>Message</label>
@@ -37,6 +38,7 @@ const ContactPage = () => {
         </div>
         <input type="submit" />
       </form>
+      <Footer darkMode={false} />
     </div>
   );
 };

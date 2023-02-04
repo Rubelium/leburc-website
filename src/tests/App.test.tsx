@@ -7,7 +7,8 @@ describe("it should render", () => {
     const component = render(
       <BrowserRouter>
         <App />
-      </BrowserRouter>);
+      </BrowserRouter>
+    );
 
     expect(component).toMatchSnapshot();
   });

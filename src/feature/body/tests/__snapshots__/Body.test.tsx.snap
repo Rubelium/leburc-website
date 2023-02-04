@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="app-body-section"
+        class="body-section"
       >
         <div
           class="spinner-border text-dark"
@@ -20,7 +20,7 @@ Object {
         </div>
       </div>
       <div
-        class="app-body-section-alt"
+        class="body-section-alt"
       >
         <div
           class="spinner-border text-light"
@@ -34,7 +34,7 @@ Object {
         </div>
       </div>
       <div
-        class="app-body-section"
+        class="body-section"
       >
         <div
           class="spinner-border text-dark"
@@ -51,7 +51,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="app-body-section"
+      class="body-section"
     >
       <div
         class="spinner-border text-dark"
@@ -65,7 +65,7 @@ Object {
       </div>
     </div>
     <div
-      class="app-body-section-alt"
+      class="body-section-alt"
     >
       <div
         class="spinner-border text-light"
@@ -79,7 +79,7 @@ Object {
       </div>
     </div>
     <div
-      class="app-body-section"
+      class="body-section"
     >
       <div
         class="spinner-border text-dark"

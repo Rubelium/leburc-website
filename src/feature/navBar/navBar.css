@@ -1,0 +1,28 @@
+.navbar {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-social-icons {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-social-icon {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.navbar-title-superscript {
+  font-size: 12px;
+}
+
+.navbar-link {
+  color: #707071;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #000000;
+}

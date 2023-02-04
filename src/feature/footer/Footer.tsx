@@ -1,10 +1,15 @@
-import Logo from "../../images/png/logoF2t4BlackWhiteCircleFilled.png";
-import { SocialIcon } from "react-social-icons";
+import "./footer.css";
 import { Link } from "react-router-dom";
+import { SocialIcon } from "react-social-icons";
+import Logo from "../../images/png/logoF2t4BlackWhiteCircleFilled.png";
 
-const Footer = () => {
+interface Props {
+  darkMode: boolean;
+}
+
+const Footer = ({ darkMode }: Props) => {
   return (
-    <div className="app-footer">
+    <div className={darkMode ? "footer-dark" : "footer-light"} >
       <div>
         <SocialIcon className="footer-social-icon" url="https://soundcloud.com/f2t4" />
         <SocialIcon className="footer-social-icon" url="https://www.youtube.com/F2t4TV" />
@@ -14,8 +19,8 @@ const Footer = () => {
       </div>
       <br />
       <div>
-        <Link className="footer-link" to="/about">About Us</Link>
-        <Link className="footer-link" to="/contact">Contact Us</Link>
+        <Link className={darkMode ? "footer-link-dark" : "footer-link-light"} to="/about">About Us</Link>
+        <Link className={darkMode ? "footer-link-dark" : "footer-link-light"} to="/contact">Contact Us</Link>
       </div>
       <br />
       <div className="footer-copyright">
@@ -24,7 +29,7 @@ const Footer = () => {
         <br />
         All rights reserved.
       </div>
-    </div>
+    </div >
   );
 };
 

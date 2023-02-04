@@ -6,17 +6,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="app-footer"
+        class="footer-dark"
       >
-        © 2023 - F2T4
-        <br />
-        ALL RIGHTS RESERVED.
-        <br />
-        <br />
         <div>
           <a
             aria-label="soundcloud"
-            class="social-icon"
+            class="social-icon footer-social-icon"
             href="https://soundcloud.com/f2t4"
             style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
           >
@@ -58,10 +53,9 @@ Object {
               </svg>
             </div>
           </a>
-           
           <a
             aria-label="youtube"
-            class="social-icon"
+            class="social-icon footer-social-icon"
             href="https://www.youtube.com/F2t4TV"
             style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
           >
@@ -103,10 +97,9 @@ Object {
               </svg>
             </div>
           </a>
-           
           <a
             aria-label="spotify"
-            class="social-icon"
+            class="social-icon footer-social-icon"
             href="https://open.spotify.com/user/f2t4"
             style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
           >
@@ -148,10 +141,9 @@ Object {
               </svg>
             </div>
           </a>
-           
           <a
             aria-label="instagram"
-            class="social-icon"
+            class="social-icon footer-social-icon"
             href="https://www.instagram.com/f2t4/"
             style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
           >
@@ -193,10 +185,9 @@ Object {
               </svg>
             </div>
           </a>
-           
           <a
             aria-label="twitter"
-            class="social-icon"
+            class="social-icon footer-social-icon"
             href="https://twitter.com/_F2t4"
             style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
           >
@@ -239,22 +230,47 @@ Object {
             </div>
           </a>
         </div>
+        <br />
+        <div>
+          <a
+            class="footer-link-dark"
+            href="/about"
+          >
+            About Us
+          </a>
+          <a
+            class="footer-link-dark"
+            href="/contact"
+          >
+            Contact Us
+          </a>
+        </div>
+        <br />
+        <div
+          class="footer-copyright"
+        >
+          <img
+            alt="F2T4 Logo"
+            height="20"
+            src="logoF2t4BlackWhiteCircleFilled.png"
+            width="20"
+          />
+           
+           Copyright © 2023 - F2T4
+          <br />
+          All rights reserved.
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="app-footer"
+      class="footer-dark"
     >
-      © 2023 - F2T4
-      <br />
-      ALL RIGHTS RESERVED.
-      <br />
-      <br />
       <div>
         <a
           aria-label="soundcloud"
-          class="social-icon"
+          class="social-icon footer-social-icon"
           href="https://soundcloud.com/f2t4"
           style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
         >
@@ -296,10 +312,9 @@ Object {
             </svg>
           </div>
         </a>
-         
         <a
           aria-label="youtube"
-          class="social-icon"
+          class="social-icon footer-social-icon"
           href="https://www.youtube.com/F2t4TV"
           style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
         >
@@ -341,10 +356,9 @@ Object {
             </svg>
           </div>
         </a>
-         
         <a
           aria-label="spotify"
-          class="social-icon"
+          class="social-icon footer-social-icon"
           href="https://open.spotify.com/user/f2t4"
           style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
         >
@@ -386,10 +400,9 @@ Object {
             </svg>
           </div>
         </a>
-         
         <a
           aria-label="instagram"
-          class="social-icon"
+          class="social-icon footer-social-icon"
           href="https://www.instagram.com/f2t4/"
           style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
         >
@@ -431,10 +444,9 @@ Object {
             </svg>
           </div>
         </a>
-         
         <a
           aria-label="twitter"
-          class="social-icon"
+          class="social-icon footer-social-icon"
           href="https://twitter.com/_F2t4"
           style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
         >
@@ -476,6 +488,36 @@ Object {
             </svg>
           </div>
         </a>
+      </div>
+      <br />
+      <div>
+        <a
+          class="footer-link-dark"
+          href="/about"
+        >
+          About Us
+        </a>
+        <a
+          class="footer-link-dark"
+          href="/contact"
+        >
+          Contact Us
+        </a>
+      </div>
+      <br />
+      <div
+        class="footer-copyright"
+      >
+        <img
+          alt="F2T4 Logo"
+          height="20"
+          src="logoF2t4BlackWhiteCircleFilled.png"
+          width="20"
+        />
+         
+         Copyright © 2023 - F2T4
+        <br />
+        All rights reserved.
       </div>
     </div>
   </div>,

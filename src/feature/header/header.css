@@ -1,0 +1,26 @@
+.header {
+  color: #FFFFFF;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  height: 7.5vmin;
+  pointer-events: none;
+}
+
+.header-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.header-h1 {
+  display: none;
+}
+
+.header-h2 {
+  font-size: 1.5rem;
+}

@@ -6,26 +6,26 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="app-header"
+        class="header"
       >
         <img
           alt="F2T4 Logo"
-          class="app-logo"
+          class="header-logo"
           src="logoF2t4BlackWhiteCircleFilled.png"
         />
         <img
           alt="F2T4 Title"
-          class="app-title"
+          class="header-title"
           src="titleF2t4White.png"
         />
         <br />
         <h1
-          style="display: none;"
+          class="header-h1"
         >
           Floor to the Four - Floor⁴
         </h1>
         <h2
-          style="font-size: 1.5rem;"
+          class="header-h2"
         >
           SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
         </h2>
@@ -34,26 +34,26 @@ Object {
   </body>,
   "container": <div>
     <header
-      class="app-header"
+      class="header"
     >
       <img
         alt="F2T4 Logo"
-        class="app-logo"
+        class="header-logo"
         src="logoF2t4BlackWhiteCircleFilled.png"
       />
       <img
         alt="F2T4 Title"
-        class="app-title"
+        class="header-title"
         src="titleF2t4White.png"
       />
       <br />
       <h1
-        style="display: none;"
+        class="header-h1"
       >
         Floor to the Four - Floor⁴
       </h1>
       <h2
-        style="font-size: 1.5rem;"
+        class="header-h2"
       >
         SERVING THE PRIMEST CUTS OF MODERN TECHNO AND HOUSE
       </h2>

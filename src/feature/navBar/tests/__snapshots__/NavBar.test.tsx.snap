@@ -10,24 +10,29 @@ Object {
       >
         <nav
           class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-          style="padding-left: 20px; padding-right: 20px;"
         >
           <a
-            class="navbar-brand"
-            href="#home"
+            class="navbar-link"
+            href="/"
           >
-            <img
-              alt="F2T4 Logo"
-              class="d-inline-block"
-              height="60"
-              src="logoF2t4BlackWhiteCircleFilled.png"
-              width="60"
-            />
-             
-            FLOOR
-            <sup>
-              4
-            </sup>
+            <span
+              class="navbar-brand"
+            >
+              <img
+                alt="F2T4 Logo"
+                class="d-inline-block"
+                height="60"
+                src="logoF2t4BlackWhiteCircleFilled.png"
+                width="60"
+              />
+               
+              FLOOR
+              <sup
+                class="navbar-title-superscript"
+              >
+                4
+              </sup>
+            </span>
           </a>
           <button
             aria-controls="basic-navbar-nav"
@@ -41,7 +46,6 @@ Object {
           </button>
           <div
             class="basic-navbar-nav navbar-collapse collapse"
-            id="basic-navbar-nav"
           >
             <div
               class="me-auto navbar-nav"
@@ -53,6 +57,7 @@ Object {
                 tabindex="0"
               >
                 <a
+                  class="navbar-link"
                   href="/"
                 >
                   Home
@@ -65,6 +70,7 @@ Object {
                 tabindex="0"
               >
                 <a
+                  class="navbar-link"
                   href="/about"
                 >
                   About
@@ -77,6 +83,7 @@ Object {
                 tabindex="0"
               >
                 <a
+                  class="navbar-link"
                   href="/contact"
                 >
                   Contact
@@ -84,7 +91,7 @@ Object {
               </a>
             </div>
             <div
-              class="navbar-nav"
+              class="navbar-social-icons navbar-nav"
             >
               <a
                 class="nav-link"
@@ -93,7 +100,7 @@ Object {
               >
                 <a
                   aria-label="soundcloud"
-                  class="social-icon"
+                  class="social-icon navbar-social-icon"
                   href="https://soundcloud.com/f2t4"
                   style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
                 >
@@ -143,7 +150,7 @@ Object {
               >
                 <a
                   aria-label="youtube"
-                  class="social-icon"
+                  class="social-icon navbar-social-icon"
                   href="https://www.youtube.com/F2t4TV"
                   style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
                 >
@@ -193,7 +200,7 @@ Object {
               >
                 <a
                   aria-label="spotify"
-                  class="social-icon"
+                  class="social-icon navbar-social-icon"
                   href="https://open.spotify.com/user/f2t4"
                   style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
                 >
@@ -243,7 +250,7 @@ Object {
               >
                 <a
                   aria-label="instagram"
-                  class="social-icon"
+                  class="social-icon navbar-social-icon"
                   href="https://www.instagram.com/f2t4/"
                   style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
                 >
@@ -293,7 +300,7 @@ Object {
               >
                 <a
                   aria-label="twitter"
-                  class="social-icon"
+                  class="social-icon navbar-social-icon"
                   href="https://twitter.com/_F2t4"
                   style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
                 >
@@ -350,24 +357,29 @@ Object {
     >
       <nav
         class="navbar navbar-expand-md navbar-light bg-light fixed-top"
-        style="padding-left: 20px; padding-right: 20px;"
       >
         <a
-          class="navbar-brand"
-          href="#home"
+          class="navbar-link"
+          href="/"
         >
-          <img
-            alt="F2T4 Logo"
-            class="d-inline-block"
-            height="60"
-            src="logoF2t4BlackWhiteCircleFilled.png"
-            width="60"
-          />
-           
-          FLOOR
-          <sup>
-            4
-          </sup>
+          <span
+            class="navbar-brand"
+          >
+            <img
+              alt="F2T4 Logo"
+              class="d-inline-block"
+              height="60"
+              src="logoF2t4BlackWhiteCircleFilled.png"
+              width="60"
+            />
+             
+            FLOOR
+            <sup
+              class="navbar-title-superscript"
+            >
+              4
+            </sup>
+          </span>
         </a>
         <button
           aria-controls="basic-navbar-nav"
@@ -381,7 +393,6 @@ Object {
         </button>
         <div
           class="basic-navbar-nav navbar-collapse collapse"
-          id="basic-navbar-nav"
         >
           <div
             class="me-auto navbar-nav"
@@ -393,6 +404,7 @@ Object {
               tabindex="0"
             >
               <a
+                class="navbar-link"
                 href="/"
               >
                 Home
@@ -405,6 +417,7 @@ Object {
               tabindex="0"
             >
               <a
+                class="navbar-link"
                 href="/about"
               >
                 About
@@ -417,6 +430,7 @@ Object {
               tabindex="0"
             >
               <a
+                class="navbar-link"
                 href="/contact"
               >
                 Contact
@@ -424,7 +438,7 @@ Object {
             </a>
           </div>
           <div
-            class="navbar-nav"
+            class="navbar-social-icons navbar-nav"
           >
             <a
               class="nav-link"
@@ -433,7 +447,7 @@ Object {
             >
               <a
                 aria-label="soundcloud"
-                class="social-icon"
+                class="social-icon navbar-social-icon"
                 href="https://soundcloud.com/f2t4"
                 style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
               >
@@ -483,7 +497,7 @@ Object {
             >
               <a
                 aria-label="youtube"
-                class="social-icon"
+                class="social-icon navbar-social-icon"
                 href="https://www.youtube.com/F2t4TV"
                 style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
               >
@@ -533,7 +547,7 @@ Object {
             >
               <a
                 aria-label="spotify"
-                class="social-icon"
+                class="social-icon navbar-social-icon"
                 href="https://open.spotify.com/user/f2t4"
                 style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
               >
@@ -583,7 +597,7 @@ Object {
             >
               <a
                 aria-label="instagram"
-                class="social-icon"
+                class="social-icon navbar-social-icon"
                 href="https://www.instagram.com/f2t4/"
                 style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
               >
@@ -633,7 +647,7 @@ Object {
             >
               <a
                 aria-label="twitter"
-                class="social-icon"
+                class="social-icon navbar-social-icon"
                 href="https://twitter.com/_F2t4"
                 style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle;"
               >

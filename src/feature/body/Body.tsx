@@ -1,19 +1,20 @@
+import "./body.css";
 import { Spinner } from "react-bootstrap";
 
 const Body = () => {
   return (
     <>
-      <div className="app-body-section">
+      <div className="body-section">
         <Spinner animation="border" role="status" variant="dark">
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       </div>
-      <div className="app-body-section-alt">
+      <div className="body-section-alt">
         <Spinner animation="border" role="status" variant="light">
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       </div>
-      <div className="app-body-section">
+      <div className="body-section">
         <Spinner animation="border" role="status" variant="dark">
           <span className="visually-hidden">Loading...</span>
         </Spinner>

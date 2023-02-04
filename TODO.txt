@@ -1,7 +1,9 @@
 - Get correct fonts on site
-- Cleanup logo edges
+- Cleanup logo/title edges
+- Make images/text not selectable
+- Speed up image loading
 - Setup body content
-- Setup submitting email
+- Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
 - Setup attachment for contact
 - Setup routing directly to about or contact
 - Set github 404 page
