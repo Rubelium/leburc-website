@@ -5,8 +5,8 @@ import Title from "../../images/png/titleF2t4White.png";
 const Header = () => {
   return (
     <header className="header">
-      <img src={Logo} className="header-logo" alt="F2T4 Logo" />
-      <img src={Title} className="header-title" alt="F2T4 Title" />
+      <img src={Logo} className="header-logo" alt="F2T4 Logo" height="350px" width="350px" />
+      <img src={Title} className="header-title" alt="F2T4 Title" width="420px" height="65px" />
       <br />
       <h1 className="header-h1">
         Floor to the Four - Floor&#8308;

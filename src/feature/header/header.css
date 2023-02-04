@@ -5,16 +5,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
 }
 
 .header-title {
-  height: 7.5vmin;
+  max-width: 100%;
+  height: auto;
   pointer-events: none;
   user-select: none;
 }
 
 .header-logo {
-  height: 30vmin;
+  max-width: 100%;
+  height: auto;
   pointer-events: none;
   user-select: none;
 }
