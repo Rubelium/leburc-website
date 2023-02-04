@@ -2,11 +2,13 @@
 - Cleanup logo/title edges
 - Make images/text not selectable
 - Speed up image loading
+- Fix canonical links and meta on pages
+- Check security on github
+- Check analytics and performance
+- Setup caching
 - Setup body content
 - Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
 - Setup attachment for contact
-- Setup routing directly to about or contact
-- Set github 404 page
 - Setup CMS and deployment variables
 - Setup web vitals
 - Make law office website*
