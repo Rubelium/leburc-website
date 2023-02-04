@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div className="about-page">
       <Helmet>
         <title>FLOOR&#8308; - About Us</title>
-        <link rel="canonical" href="https://www.floortothefour.com/#/about/" />
+        <link rel="canonical" href="https://www.floortothefour.com/#/about" />
       </Helmet>
       <Spinner animation="border" role="status" variant="light">
         <span className="visually-hidden">Loading...</span>

@@ -21,7 +21,7 @@ const ContactPage = () => {
     <div className="contact-page">
       <Helmet>
         <title>FLOOR&#8308; - Contact Us</title>
-        <link rel="canonical" href="https://www.floortothefour.com/#/contact/" />
+        <link rel="canonical" href="https://www.floortothefour.com/#/contact" />
       </Helmet>
       <h1 className="contact-page-h1">Contact Us</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
