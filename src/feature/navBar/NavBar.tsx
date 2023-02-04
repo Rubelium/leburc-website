@@ -20,7 +20,7 @@ const NavBar = () => {
               {" "}FLOOR<sup className="navbar-title-superscript">4</sup>
             </Navbar.Brand>
           </Link>
-          <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle onClick={() => setExpanded(expanded ? false : true)} />
           <Navbar.Collapse className="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link>
