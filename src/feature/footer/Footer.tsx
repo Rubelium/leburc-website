@@ -21,6 +21,8 @@ const Footer = () => {
       <div className="footer-copyright">
         <img src={Logo} alt="F2T4 Logo" width="20" height="20" />
         {" "} Copyright © 2023 - F2T4
+        <br />
+        All rights reserved.
       </div>
     </div>
   );

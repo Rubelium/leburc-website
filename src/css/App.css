@@ -91,7 +91,7 @@
 /* Footer: */
 
 .footer-copyright {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footer-social-icon {
@@ -101,7 +101,7 @@
 
 .footer-link {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -111,13 +111,25 @@
 }
 
 
-/* Homepage: */
+/* Home Page: */
+
 .home-page-h1 {
   display: none;
 }
 
 .home-page-h2 {
   font-size: 1.5rem;
+}
+
+/* Contact Page: */
+
+.contact-page {
+  background-color: #013c57;
+}
+
+.contact-page-h1 {
+  color: #FFFFFF;
+  padding-top: 60px;
 }
 
 /* At-rules: */
