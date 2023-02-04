@@ -32,21 +32,21 @@ const NavBar = () => {
                 <Link className="navbar-link" to="/contact" onClick={() => setExpanded(false)}>Contact</Link>
               </Nav.Link>
             </Nav>
-            <Nav>
+            <Nav className="navbar-social-icons">
               <Nav.Link href="https://soundcloud.com/f2t4">
-                <SocialIcon url="https://soundcloud.com/f2t4" bgColor="#000000" />
+                <SocialIcon className="navbar-social-icon" url="https://soundcloud.com/f2t4" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://www.youtube.com/F2t4TV">
-                <SocialIcon url="https://www.youtube.com/F2t4TV" bgColor="#000000" />
+                <SocialIcon className="navbar-social-icon" url="https://www.youtube.com/F2t4TV" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://open.spotify.com/user/f2t4">
-                <SocialIcon url="https://open.spotify.com/user/f2t4" bgColor="#000000" />
+                <SocialIcon className="navbar-social-icon" url="https://open.spotify.com/user/f2t4" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://www.instagram.com/f2t4/">
-                <SocialIcon url="https://www.instagram.com/f2t4/" bgColor="#000000" />
+                <SocialIcon className="navbar-social-icon" url="https://www.instagram.com/f2t4/" bgColor="#000000" />
               </Nav.Link>
               <Nav.Link href="https://twitter.com/_F2t4">
-                <SocialIcon url="https://twitter.com/_F2t4" bgColor="#000000" />
+                <SocialIcon className="navbar-social-icon" url="https://twitter.com/_F2t4" bgColor="#000000" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
