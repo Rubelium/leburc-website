@@ -1,9 +1,10 @@
 - Get better fonts/colors
 - Cleanup logo/title in photo editor
+- Add linear gradient to dark footer
 - Speed up image loading (caching)
-- Fix canonical links and meta on pages (react-helmet)
 
-- Setup body content for homepage and about us page
+- Setup body content for home page
+- Setup body content for about us page
 - Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
 - Setup attachment for contact us page
 - Setup CMS and deployment variables
