@@ -14,6 +14,7 @@ const AboutPage = () => {
         <meta property="og:title" content="FLOOR&#8308; - About Us" />
         <meta name="og:description"
           content="To spread the electronic music lifestyle & to further promote Artists, Labels, & Venues on the bleeding-edge of sound." />
+        <meta property="og:url" content="https://www.floortothefour.com/#/about"></meta>
         <meta name="twitter:title" content="FLOOR&#8308; - About Us" />
         <meta name="twitter:description"
           content="To spread the electronic music lifestyle & to further promote Artists, Labels, & Venues on the bleeding-edge of sound." />

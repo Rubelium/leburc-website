@@ -1,6 +1,5 @@
 - Get better fonts/colors
 - Cleanup logo/title in photo editor
-- Update meta when sharing contact and about
 
 - Setup body content for home page
 - Setup body content for about us page

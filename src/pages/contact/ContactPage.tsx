@@ -27,6 +27,7 @@ const ContactPage = () => {
         <meta property="og:title" content="FLOOR&#8308; - Contact Us" />
         <meta name="og:description"
           content="Get in contact with the team at Floor to the Four. We are non-discriminatory as long as you can mix. Bedroom DJ or established label owner, doesn't matter." />
+        <meta property="og:url" content="https://www.floortothefour.com/#/contact"></meta>
         <meta name="twitter:title" content="FLOOR&#8308; - Contact Us" />
         <meta name="twitter:description"
           content="Get in contact with the team at Floor to the Four. We are non-discriminatory as long as you can mix. Bedroom DJ or established label owner, doesn't matter." />
