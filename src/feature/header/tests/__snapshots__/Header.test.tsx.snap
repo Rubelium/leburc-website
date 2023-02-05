@@ -11,12 +11,16 @@ Object {
         <img
           alt="F2T4 Logo"
           class="header-logo"
+          height="350px"
           src="logoF2t4BlackWhiteCircleFilled.png"
+          width="350px"
         />
         <img
           alt="F2T4 Title"
           class="header-title"
+          height="65px"
           src="titleF2t4White.png"
+          width="420px"
         />
         <br />
         <h1
@@ -39,12 +43,16 @@ Object {
       <img
         alt="F2T4 Logo"
         class="header-logo"
+        height="350px"
         src="logoF2t4BlackWhiteCircleFilled.png"
+        width="350px"
       />
       <img
         alt="F2T4 Title"
         class="header-title"
+        height="65px"
         src="titleF2t4White.png"
+        width="420px"
       />
       <br />
       <h1

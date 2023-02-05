@@ -1,10 +1,10 @@
 - Get better fonts/colors
 - Cleanup logo/title in photo editor
-- Setup animations
 - Update meta when sharing contact and about
 
 - Setup body content for home page
 - Setup body content for about us page
+- Setup animations
 - Setup submitting email (https://www.emailjs.com/docs/examples/reactjs/)
 - Setup attachment for contact us page
 - Setup mobile styling (https://www.npmjs.com/package/react-responsive)
