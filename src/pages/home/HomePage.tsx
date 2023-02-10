@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
-import Body from "../../feature/body/Body";
-import Header from "../../feature/header/Header";
+import Body from "./body/Body";
+import Header from "./header/Header";
 import Footer from "../../feature/footer/Footer";
 
 const HomePage = () => {

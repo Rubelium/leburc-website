@@ -1,6 +1,6 @@
 import "./header.css";
-import Logo from "../../images/png/logoF2t4BlackWhiteCircleFilled.png";
-import Title from "../../images/png/titleF2t4White.png";
+import Logo from "../../../images/png/logoF2t4BlackWhiteCircleFilled.png";
+import Title from "../../../images/png/titleF2t4White.png";
 
 const Header = () => {
   return (

@@ -9,7 +9,7 @@ interface Props {
 
 const Footer = ({ darkMode }: Props) => {
   return (
-    <div className={darkMode ? "footer-dark" : "footer-light"} >
+    <div className={darkMode ? "footer footer-dark" : "footer footer-light"} >
       <div>
         <SocialIcon className="footer-social-icon" url="https://soundcloud.com/f2t4" />
         <SocialIcon className="footer-social-icon" url="https://www.youtube.com/F2t4TV" />

@@ -1,6 +1,6 @@
-.footer-dark {
-  color: #FFFFFF;
-  background-color: #000000;
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
   min-height: 25vh;
   display: flex;
   flex-direction: column;
@@ -8,14 +8,14 @@
   justify-content: center;
 }
 
+.footer-dark {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
 .footer-light {
   color: #212529;
   background-color: #FFFFFF;
-  min-height: 25vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-link-dark {
