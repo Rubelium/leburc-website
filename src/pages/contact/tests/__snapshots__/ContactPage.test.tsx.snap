@@ -61,7 +61,7 @@ Object {
           />
         </form>
         <div
-          class="footer-light"
+          class="footer footer-light"
         >
           <div>
             <a
@@ -376,7 +376,7 @@ Object {
         />
       </form>
       <div
-        class="footer-light"
+        class="footer footer-light"
       >
         <div>
           <a

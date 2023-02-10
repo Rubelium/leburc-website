@@ -23,7 +23,7 @@ Object {
         class="body-section-alt"
       >
         <div
-          class="spinner-border text-light"
+          class="spinner-border text-warning"
           role="status"
         >
           <span
@@ -68,7 +68,7 @@ Object {
       class="body-section-alt"
     >
       <div
-        class="spinner-border text-light"
+        class="spinner-border text-warning"
         role="status"
       >
         <span

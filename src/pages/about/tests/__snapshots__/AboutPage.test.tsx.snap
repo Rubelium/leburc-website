@@ -9,7 +9,7 @@ Object {
         class="about-page"
       >
         <div
-          class="spinner-border text-light"
+          class="spinner-border text-warning"
           role="status"
         >
           <span
@@ -24,7 +24,7 @@ Object {
           About Us (WIP)
         </h1>
         <div
-          class="footer-light"
+          class="footer footer-light"
         >
           <div>
             <a
@@ -287,7 +287,7 @@ Object {
       class="about-page"
     >
       <div
-        class="spinner-border text-light"
+        class="spinner-border text-warning"
         role="status"
       >
         <span
@@ -302,7 +302,7 @@ Object {
         About Us (WIP)
       </h1>
       <div
-        class="footer-light"
+        class="footer footer-light"
       >
         <div>
           <a

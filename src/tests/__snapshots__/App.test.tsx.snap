@@ -401,7 +401,7 @@ Object {
             class="body-section-alt"
           >
             <div
-              class="spinner-border text-light"
+              class="spinner-border text-warning"
               role="status"
             >
               <span
@@ -426,7 +426,7 @@ Object {
             </div>
           </div>
           <div
-            class="footer-dark"
+            class="footer footer-dark"
           >
             <div>
               <a
@@ -1082,7 +1082,7 @@ Object {
           class="body-section-alt"
         >
           <div
-            class="spinner-border text-light"
+            class="spinner-border text-warning"
             role="status"
           >
             <span
@@ -1107,7 +1107,7 @@ Object {
           </div>
         </div>
         <div
-          class="footer-dark"
+          class="footer footer-dark"
         >
           <div>
             <a
