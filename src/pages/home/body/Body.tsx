@@ -10,7 +10,7 @@ const Body = () => {
         </Spinner>
       </div>
       <div className="body-section-alt">
-        <Spinner animation="border" role="status" variant="light">
+        <Spinner animation="border" role="status" variant="warning">
           <span className="visually-hidden">Loading...</span>
         </Spinner>
       </div>

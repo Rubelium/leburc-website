@@ -19,7 +19,7 @@ const AboutPage = () => {
         <meta name="twitter:description"
           content="To spread the electronic music lifestyle & to further promote Artists, Labels, & Venues on the bleeding-edge of sound." />
       </Helmet>
-      <Spinner animation="border" role="status" variant="light">
+      <Spinner animation="border" role="status" variant="warning">
         <span className="visually-hidden">Loading...</span>
       </Spinner>
       <h1 className="about-page-h1">About Us (WIP)</h1>
