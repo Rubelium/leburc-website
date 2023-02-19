@@ -1,6 +1,6 @@
 {
-  "name": "f2t4-website",
-  "homepage": "https://www.floortothefour.com/",
+  "name": "leburc-website",
+  "homepage": "https://www.leburc.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
