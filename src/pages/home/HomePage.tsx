@@ -7,17 +7,17 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <Helmet>
-        <title>FLOOR&#8308;</title>
-        <link rel="canonical" href="https://www.floortothefour.com/" />
+        <title>Leburc - DJ / Web Designer</title>
+        <link rel="canonical" href="https://www.leburc.com/" />
         <meta name="description"
-          content="Floor to the Four serves the primest cuts of modern Techno and House music. No personalities, no faces, just slamming tracks." />
-        <meta property="og:title" content="FLOOR&#8308;" />
+          content="DJ / Web Designer" />
+        <meta property="og:title" content="Leburc" />
         <meta name="og:description"
-          content="Floor to the Four serves the primest cuts of modern Techno and House music. No personalities, no faces, just slamming tracks." />
-        <meta property="og:url" content="https://www.floortothefour.com/"></meta>
-        <meta name="twitter:title" content="FLOOR&#8308;" />
+          content="DJ / Web Designer" />
+        <meta property="og:url" content="https://www.leburc.com/"></meta>
+        <meta name="twitter:title" content="Leburc" />
         <meta name="twitter:description"
-          content="Floor to the Four serves the primest cuts of modern Techno and House music. No personalities, no faces, just slamming tracks." />
+          content="DJ / Web Designer" />
       </Helmet>
       <Header />
       <Body />
